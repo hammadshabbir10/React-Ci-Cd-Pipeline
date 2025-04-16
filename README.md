@@ -1,3 +1,4 @@
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# React CI/CD Pipeline 🚀
+
+This task demonstrates a simple CI/CD pipeline for a React application using:
+
+- ESLint for code linting
+- GitHub Actions for CI
+- Docker for containerization
+- Docker Hub for image storage
+
+## Workflow Overview
+
+✅ Lint check  
+🐳 Docker build  
+📦 Docker image push  
+
