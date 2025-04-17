@@ -1,8 +1,8 @@
 # Step 1: Build React app
 FROM node:18 as build
 WORKDIR /app
-COPY . .
-RUN npm install
+COPY . . 
+RUN npm install --legacy-peer-deps
 RUN npm run build
 
 # Step 2: Serve using nginx
